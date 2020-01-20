@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:URLShortenerApp.xcodeproj">
+      location = "self:URLShortener.xcodeproj">
    </FileRef>
 </Workspace>

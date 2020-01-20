@@ -1,15 +1,15 @@
 //
-//  URLShortenerAppTests.swift
-//  URLShortenerAppTests
+//  URLShortenerTests.swift
+//  URLShortenerTests
 //
 //  Created by PiPyL on 1/20/20.
 //  Copyright © 2020 PiPyL. All rights reserved.
 //
 
 import XCTest
-@testable import URLShortenerApp
+@testable import URLShortener
 
-class URLShortenerAppTests: XCTestCase {
+class URLShortenerTests: XCTestCase {
 
     var viewController: ViewController!
 

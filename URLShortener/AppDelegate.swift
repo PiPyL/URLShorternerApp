@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  URLShortenerApp
+//  URLShortener
 //
 //  Created by PiPyL on 1/20/20.
 //  Copyright © 2020 PiPyL. All rights reserved.

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IcR-Du-E9k">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="cdF-3K-3IY">
+            <objects>
+                <viewController id="IcR-Du-E9k" customClass="ViewController" customModule="URLShortenerApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="I75-Uc-FoZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input URL - Ex: google.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jfb-wH-5Mx">
+                                <rect key="frame" x="20" y="267" width="280" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="sDZ-SX-cCc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZJv-Lc-ng0">
+                                <rect key="frame" x="100" y="341" width="120" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.56862745100000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="FHV-lB-8A2"/>
+                                    <constraint firstAttribute="height" constant="40" id="w2F-dg-MG5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <state key="normal" title="Generate">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="didClickGenerate:" destination="IcR-Du-E9k" eventType="touchUpInside" id="5GU-ey-zx9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u6O-VB-sLW">
+                                <rect key="frame" x="20" y="421" width="280" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="URL Shortener" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sa0-dr-6rh">
+                                <rect key="frame" x="20" y="191" width="280" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Sa0-dr-6rh" firstAttribute="leading" secondItem="qcJ-Uf-cF2" secondAttribute="leading" constant="20" id="7Lo-mg-psV"/>
+                            <constraint firstItem="Jfb-wH-5Mx" firstAttribute="centerY" secondItem="I75-Uc-FoZ" secondAttribute="centerY" id="8i3-FR-wSL"/>
+                            <constraint firstItem="Jfb-wH-5Mx" firstAttribute="leading" secondItem="qcJ-Uf-cF2" secondAttribute="leading" constant="20" id="CFp-yz-Jdp"/>
+                            <constraint firstItem="qcJ-Uf-cF2" firstAttribute="trailing" secondItem="u6O-VB-sLW" secondAttribute="trailing" constant="20" id="Zs2-EL-6Dx"/>
+                            <constraint firstItem="ZJv-Lc-ng0" firstAttribute="centerX" secondItem="I75-Uc-FoZ" secondAttribute="centerX" id="axV-84-2Ca"/>
+                            <constraint firstItem="ZJv-Lc-ng0" firstAttribute="top" secondItem="Jfb-wH-5Mx" secondAttribute="bottom" constant="40" id="b9L-4K-JXh"/>
+                            <constraint firstItem="u6O-VB-sLW" firstAttribute="top" secondItem="ZJv-Lc-ng0" secondAttribute="bottom" constant="40" id="ek8-1t-y62"/>
+                            <constraint firstItem="Jfb-wH-5Mx" firstAttribute="top" secondItem="Sa0-dr-6rh" secondAttribute="bottom" constant="40" id="fAl-Ue-06a"/>
+                            <constraint firstItem="qcJ-Uf-cF2" firstAttribute="trailing" secondItem="Jfb-wH-5Mx" secondAttribute="trailing" constant="20" id="nIS-EO-wDE"/>
+                            <constraint firstItem="u6O-VB-sLW" firstAttribute="leading" secondItem="qcJ-Uf-cF2" secondAttribute="leading" constant="20" id="sGm-XI-vn8"/>
+                            <constraint firstItem="qcJ-Uf-cF2" firstAttribute="trailing" secondItem="Sa0-dr-6rh" secondAttribute="trailing" constant="20" id="tbw-JF-faX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qcJ-Uf-cF2"/>
+                    </view>
+                    <connections>
+                        <outlet property="generateButton" destination="ZJv-Lc-ng0" id="PT5-jV-t8D"/>
+                        <outlet property="urlShortenerLabel" destination="u6O-VB-sLW" id="kLw-QC-fd6"/>
+                        <outlet property="urlTextField" destination="Jfb-wH-5Mx" id="Yh9-df-8d8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FXn-Zy-N0A" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="117"/>
+        </scene>
+    </scenes>
+</document>
