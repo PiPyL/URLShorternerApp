@@ -3,210 +3,164 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		73F359CBD0AB5FC037477A38 /* Pods_URLShortenerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF5E5C4537DB372E95E48D4 /* Pods_URLShortenerApp.framework */; };
-		B381C9EC23D53B2300E6FBB0 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B381C9EB23D53B2300E6FBB0 /* StringExtension.swift */; };
-		B381C9F423D546D700E6FBB0 /* URLShortenerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B381C9F323D546D700E6FBB0 /* URLShortenerAppTests.swift */; };
-		B3DFE69923D5333100E601A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DFE69823D5333100E601A5 /* AppDelegate.swift */; };
-		B3DFE69B23D5333100E601A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DFE69A23D5333100E601A5 /* SceneDelegate.swift */; };
-		B3DFE69D23D5333100E601A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DFE69C23D5333100E601A5 /* ViewController.swift */; };
-		B3DFE6A023D5333100E601A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3DFE69E23D5333100E601A5 /* Main.storyboard */; };
-		B3DFE6A223D5333600E601A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3DFE6A123D5333600E601A5 /* Assets.xcassets */; };
-		B3DFE6A523D5333600E601A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3DFE6A323D5333600E601A5 /* LaunchScreen.storyboard */; };
-		B3DFE6B223D5344000E601A5 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DFE6B123D5344000E601A5 /* NetworkController.swift */; };
+		B381CA3C23D571AF00E6FBB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B381CA3B23D571AF00E6FBB0 /* AppDelegate.swift */; };
+		B381CA3E23D571AF00E6FBB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B381CA3D23D571AF00E6FBB0 /* SceneDelegate.swift */; };
+		B381CA5323D571B100E6FBB0 /* URLShortenerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B381CA5223D571B100E6FBB0 /* URLShortenerAppTests.swift */; };
+		B381CA6C23D571DF00E6FBB0 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B381CA5F23D571DF00E6FBB0 /* StringExtension.swift */; };
+		B381CA6D23D571DF00E6FBB0 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B381CA6123D571DF00E6FBB0 /* NetworkController.swift */; };
+		B381CA6E23D571DF00E6FBB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B381CA6323D571DF00E6FBB0 /* ViewController.swift */; };
+		B381CA7023D571DF00E6FBB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B381CA6723D571DF00E6FBB0 /* LaunchScreen.storyboard */; };
+		B381CA7123D571DF00E6FBB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B381CA6923D571DF00E6FBB0 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B381C9F623D546D700E6FBB0 /* PBXContainerItemProxy */ = {
+		B381CA4F23D571B100E6FBB0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B3DFE68D23D5333100E601A5 /* Project object */;
+			containerPortal = B381CA3023D571AF00E6FBB0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B3DFE69423D5333100E601A5;
+			remoteGlobalIDString = B381CA3723D571AF00E6FBB0;
 			remoteInfo = URLShortenerApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4AF5E5C4537DB372E95E48D4 /* Pods_URLShortenerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLShortenerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		62DBB8D718D01138456C69CA /* Pods-URLShortenerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLShortenerApp.release.xcconfig"; path = "Target Support Files/Pods-URLShortenerApp/Pods-URLShortenerApp.release.xcconfig"; sourceTree = "<group>"; };
-		A317181577812CAF35E6E27C /* Pods-URLShortenerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLShortenerApp.debug.xcconfig"; path = "Target Support Files/Pods-URLShortenerApp/Pods-URLShortenerApp.debug.xcconfig"; sourceTree = "<group>"; };
-		B381C9EB23D53B2300E6FBB0 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
-		B381C9F123D546D700E6FBB0 /* URLShortenerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLShortenerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B381C9F323D546D700E6FBB0 /* URLShortenerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLShortenerAppTests.swift; sourceTree = "<group>"; };
-		B381C9F523D546D700E6FBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3DFE69523D5333100E601A5 /* URLShortenerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLShortenerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3DFE69823D5333100E601A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B3DFE69A23D5333100E601A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B3DFE69C23D5333100E601A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B3DFE69F23D5333100E601A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B3DFE6A123D5333600E601A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B3DFE6A423D5333600E601A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B3DFE6A623D5333600E601A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3DFE6B123D5344000E601A5 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		B381CA3823D571AF00E6FBB0 /* URLShortenerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLShortenerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B381CA3B23D571AF00E6FBB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B381CA3D23D571AF00E6FBB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B381CA4E23D571B100E6FBB0 /* URLShortenerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLShortenerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B381CA5223D571B100E6FBB0 /* URLShortenerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLShortenerAppTests.swift; sourceTree = "<group>"; };
+		B381CA5423D571B100E6FBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B381CA5F23D571DF00E6FBB0 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		B381CA6123D571DF00E6FBB0 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		B381CA6323D571DF00E6FBB0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B381CA6823D571DF00E6FBB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B381CA6A23D571DF00E6FBB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B381CA7323D5722500E6FBB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B381CA7423D5722500E6FBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B381CA7523D5727600E6FBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B381C9EE23D546D700E6FBB0 /* Frameworks */ = {
+		B381CA3523D571AF00E6FBB0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3DFE69223D5333100E601A5 /* Frameworks */ = {
+		B381CA4B23D571B100E6FBB0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73F359CBD0AB5FC037477A38 /* Pods_URLShortenerApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7E7D192BB6D28FB26757A704 /* Pods */ = {
+		B381CA2F23D571AF00E6FBB0 = {
 			isa = PBXGroup;
 			children = (
-				A317181577812CAF35E6E27C /* Pods-URLShortenerApp.debug.xcconfig */,
-				62DBB8D718D01138456C69CA /* Pods-URLShortenerApp.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		8CCA5124C88F2796759AD9D3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4AF5E5C4537DB372E95E48D4 /* Pods_URLShortenerApp.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B381C9EA23D53ADD00E6FBB0 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				B381C9EB23D53B2300E6FBB0 /* StringExtension.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		B381C9F223D546D700E6FBB0 /* URLShortenerAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				B381C9F323D546D700E6FBB0 /* URLShortenerAppTests.swift */,
-				B381C9F523D546D700E6FBB0 /* Info.plist */,
-			);
-			path = URLShortenerAppTests;
-			sourceTree = "<group>";
-		};
-		B3DFE68C23D5333100E601A5 = {
-			isa = PBXGroup;
-			children = (
-				B3DFE69723D5333100E601A5 /* URLShortenerApp */,
-				B381C9F223D546D700E6FBB0 /* URLShortenerAppTests */,
-				B3DFE69623D5333100E601A5 /* Products */,
-				7E7D192BB6D28FB26757A704 /* Pods */,
-				8CCA5124C88F2796759AD9D3 /* Frameworks */,
+				B381CA3A23D571AF00E6FBB0 /* URLShortenerApp */,
+				B381CA5123D571B100E6FBB0 /* URLShortenerAppTests */,
+				B381CA3923D571AF00E6FBB0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B3DFE69623D5333100E601A5 /* Products */ = {
+		B381CA3923D571AF00E6FBB0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B3DFE69523D5333100E601A5 /* URLShortenerApp.app */,
-				B381C9F123D546D700E6FBB0 /* URLShortenerAppTests.xctest */,
+				B381CA3823D571AF00E6FBB0 /* URLShortenerApp.app */,
+				B381CA4E23D571B100E6FBB0 /* URLShortenerAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B3DFE69723D5333100E601A5 /* URLShortenerApp */ = {
+		B381CA3A23D571AF00E6FBB0 /* URLShortenerApp */ = {
 			isa = PBXGroup;
 			children = (
-				B3DFE6A623D5333600E601A5 /* Info.plist */,
-				B381C9EA23D53ADD00E6FBB0 /* Extension */,
-				B3DFE6B023D5342E00E601A5 /* Controller */,
-				B3DFE6AF23D5335600E601A5 /* Helper */,
-				B3DFE6AE23D5335000E601A5 /* Resource */,
-				B3DFE6AD23D5334800E601A5 /* Storyboard */,
-				B3DFE6AC23D5333A00E601A5 /* ViewController */,
-				B3DFE69823D5333100E601A5 /* AppDelegate.swift */,
-				B3DFE69A23D5333100E601A5 /* SceneDelegate.swift */,
+				B381CA7523D5727600E6FBB0 /* Info.plist */,
+				B381CA5E23D571DF00E6FBB0 /* Extension */,
+				B381CA6023D571DF00E6FBB0 /* Controller */,
+				B381CA6423D571DF00E6FBB0 /* Resource */,
+				B381CA6623D571DF00E6FBB0 /* Storyboard */,
+				B381CA6223D571DF00E6FBB0 /* ViewController */,
+				B381CA3B23D571AF00E6FBB0 /* AppDelegate.swift */,
+				B381CA3D23D571AF00E6FBB0 /* SceneDelegate.swift */,
 			);
 			path = URLShortenerApp;
 			sourceTree = "<group>";
 		};
-		B3DFE6AC23D5333A00E601A5 /* ViewController */ = {
+		B381CA5123D571B100E6FBB0 /* URLShortenerAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				B3DFE69C23D5333100E601A5 /* ViewController.swift */,
+				B381CA5223D571B100E6FBB0 /* URLShortenerAppTests.swift */,
+				B381CA5423D571B100E6FBB0 /* Info.plist */,
 			);
-			path = ViewController;
+			path = URLShortenerAppTests;
 			sourceTree = "<group>";
 		};
-		B3DFE6AD23D5334800E601A5 /* Storyboard */ = {
+		B381CA5E23D571DF00E6FBB0 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				B3DFE69E23D5333100E601A5 /* Main.storyboard */,
-				B3DFE6A323D5333600E601A5 /* LaunchScreen.storyboard */,
+				B381CA5F23D571DF00E6FBB0 /* StringExtension.swift */,
 			);
-			path = Storyboard;
+			name = Extension;
+			path = ../../../URLShorternerAppppp/URLShortenerApp/Extension;
 			sourceTree = "<group>";
 		};
-		B3DFE6AE23D5335000E601A5 /* Resource */ = {
+		B381CA6023D571DF00E6FBB0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B3DFE6A123D5333600E601A5 /* Assets.xcassets */,
+				B381CA6123D571DF00E6FBB0 /* NetworkController.swift */,
 			);
-			path = Resource;
+			name = Controller;
+			path = ../../../URLShorternerAppppp/URLShortenerApp/Controller;
 			sourceTree = "<group>";
 		};
-		B3DFE6AF23D5335600E601A5 /* Helper */ = {
+		B381CA6223D571DF00E6FBB0 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				B381CA6323D571DF00E6FBB0 /* ViewController.swift */,
 			);
-			path = Helper;
+			name = ViewController;
+			path = ../../../URLShorternerAppppp/URLShortenerApp/ViewController;
 			sourceTree = "<group>";
 		};
-		B3DFE6B023D5342E00E601A5 /* Controller */ = {
+		B381CA6423D571DF00E6FBB0 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				B3DFE6B123D5344000E601A5 /* NetworkController.swift */,
+				B381CA7323D5722500E6FBB0 /* Assets.xcassets */,
+				B381CA7423D5722500E6FBB0 /* Info.plist */,
 			);
-			path = Controller;
+			name = Resource;
+			path = ../../../URLShorternerAppppp/URLShortenerApp/Resource;
+			sourceTree = "<group>";
+		};
+		B381CA6623D571DF00E6FBB0 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B381CA6723D571DF00E6FBB0 /* LaunchScreen.storyboard */,
+				B381CA6923D571DF00E6FBB0 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			path = ../../../URLShorternerAppppp/URLShortenerApp/Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B381C9F023D546D700E6FBB0 /* URLShortenerAppTests */ = {
+		B381CA3723D571AF00E6FBB0 /* URLShortenerApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B381C9F823D546D700E6FBB0 /* Build configuration list for PBXNativeTarget "URLShortenerAppTests" */;
+			buildConfigurationList = B381CA5723D571B100E6FBB0 /* Build configuration list for PBXNativeTarget "URLShortenerApp" */;
 			buildPhases = (
-				B381C9ED23D546D700E6FBB0 /* Sources */,
-				B381C9EE23D546D700E6FBB0 /* Frameworks */,
-				B381C9EF23D546D700E6FBB0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B381C9F723D546D700E6FBB0 /* PBXTargetDependency */,
-			);
-			name = URLShortenerAppTests;
-			productName = URLShortenerAppTests;
-			productReference = B381C9F123D546D700E6FBB0 /* URLShortenerAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B3DFE69423D5333100E601A5 /* URLShortenerApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B3DFE6A923D5333600E601A5 /* Build configuration list for PBXNativeTarget "URLShortenerApp" */;
-			buildPhases = (
-				4268A0562F394CA36E6663D6 /* [CP] Check Pods Manifest.lock */,
-				B3DFE69123D5333100E601A5 /* Sources */,
-				B3DFE69223D5333100E601A5 /* Frameworks */,
-				B3DFE69323D5333100E601A5 /* Resources */,
-				BA23AA4A2E0631C208AEA82A /* [CP] Embed Pods Frameworks */,
+				B381CA3423D571AF00E6FBB0 /* Sources */,
+				B381CA3523D571AF00E6FBB0 /* Frameworks */,
+				B381CA3623D571AF00E6FBB0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -214,29 +168,47 @@
 			);
 			name = URLShortenerApp;
 			productName = URLShortenerApp;
-			productReference = B3DFE69523D5333100E601A5 /* URLShortenerApp.app */;
+			productReference = B381CA3823D571AF00E6FBB0 /* URLShortenerApp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		B381CA4D23D571B100E6FBB0 /* URLShortenerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B381CA5A23D571B100E6FBB0 /* Build configuration list for PBXNativeTarget "URLShortenerAppTests" */;
+			buildPhases = (
+				B381CA4A23D571B100E6FBB0 /* Sources */,
+				B381CA4B23D571B100E6FBB0 /* Frameworks */,
+				B381CA4C23D571B100E6FBB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B381CA5023D571B100E6FBB0 /* PBXTargetDependency */,
+			);
+			name = URLShortenerAppTests;
+			productName = URLShortenerAppTests;
+			productReference = B381CA4E23D571B100E6FBB0 /* URLShortenerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B3DFE68D23D5333100E601A5 /* Project object */ = {
+		B381CA3023D571AF00E6FBB0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = PiPyL;
 				TargetAttributes = {
-					B381C9F023D546D700E6FBB0 = {
+					B381CA3723D571AF00E6FBB0 = {
 						CreatedOnToolsVersion = 11.2.1;
-						TestTargetID = B3DFE69423D5333100E601A5;
 					};
-					B3DFE69423D5333100E601A5 = {
+					B381CA4D23D571B100E6FBB0 = {
 						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = B381CA3723D571AF00E6FBB0;
 					};
 				};
 			};
-			buildConfigurationList = B3DFE69023D5333100E601A5 /* Build configuration list for PBXProject "URLShortenerApp" */;
+			buildConfigurationList = B381CA3323D571AF00E6FBB0 /* Build configuration list for PBXProject "URLShortenerApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -244,171 +216,88 @@
 				en,
 				Base,
 			);
-			mainGroup = B3DFE68C23D5333100E601A5;
-			productRefGroup = B3DFE69623D5333100E601A5 /* Products */;
+			mainGroup = B381CA2F23D571AF00E6FBB0;
+			productRefGroup = B381CA3923D571AF00E6FBB0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B3DFE69423D5333100E601A5 /* URLShortenerApp */,
-				B381C9F023D546D700E6FBB0 /* URLShortenerAppTests */,
+				B381CA3723D571AF00E6FBB0 /* URLShortenerApp */,
+				B381CA4D23D571B100E6FBB0 /* URLShortenerAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B381C9EF23D546D700E6FBB0 /* Resources */ = {
+		B381CA3623D571AF00E6FBB0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B381CA7123D571DF00E6FBB0 /* Main.storyboard in Resources */,
+				B381CA7023D571DF00E6FBB0 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3DFE69323D5333100E601A5 /* Resources */ = {
+		B381CA4C23D571B100E6FBB0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3DFE6A523D5333600E601A5 /* LaunchScreen.storyboard in Resources */,
-				B3DFE6A223D5333600E601A5 /* Assets.xcassets in Resources */,
-				B3DFE6A023D5333100E601A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		4268A0562F394CA36E6663D6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-URLShortenerApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BA23AA4A2E0631C208AEA82A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-URLShortenerApp/Pods-URLShortenerApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-URLShortenerApp/Pods-URLShortenerApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-URLShortenerApp/Pods-URLShortenerApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		B381C9ED23D546D700E6FBB0 /* Sources */ = {
+		B381CA3423D571AF00E6FBB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B381C9F423D546D700E6FBB0 /* URLShortenerAppTests.swift in Sources */,
+				B381CA6E23D571DF00E6FBB0 /* ViewController.swift in Sources */,
+				B381CA6D23D571DF00E6FBB0 /* NetworkController.swift in Sources */,
+				B381CA6C23D571DF00E6FBB0 /* StringExtension.swift in Sources */,
+				B381CA3C23D571AF00E6FBB0 /* AppDelegate.swift in Sources */,
+				B381CA3E23D571AF00E6FBB0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3DFE69123D5333100E601A5 /* Sources */ = {
+		B381CA4A23D571B100E6FBB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3DFE6B223D5344000E601A5 /* NetworkController.swift in Sources */,
-				B3DFE69D23D5333100E601A5 /* ViewController.swift in Sources */,
-				B381C9EC23D53B2300E6FBB0 /* StringExtension.swift in Sources */,
-				B3DFE69923D5333100E601A5 /* AppDelegate.swift in Sources */,
-				B3DFE69B23D5333100E601A5 /* SceneDelegate.swift in Sources */,
+				B381CA5323D571B100E6FBB0 /* URLShortenerAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B381C9F723D546D700E6FBB0 /* PBXTargetDependency */ = {
+		B381CA5023D571B100E6FBB0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B3DFE69423D5333100E601A5 /* URLShortenerApp */;
-			targetProxy = B381C9F623D546D700E6FBB0 /* PBXContainerItemProxy */;
+			target = B381CA3723D571AF00E6FBB0 /* URLShortenerApp */;
+			targetProxy = B381CA4F23D571B100E6FBB0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B3DFE69E23D5333100E601A5 /* Main.storyboard */ = {
+		B381CA6723D571DF00E6FBB0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B3DFE69F23D5333100E601A5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B3DFE6A323D5333600E601A5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B3DFE6A423D5333600E601A5 /* Base */,
+				B381CA6823D571DF00E6FBB0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B381CA6923D571DF00E6FBB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B381CA6A23D571DF00E6FBB0 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B381C9F923D546D700E6FBB0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJ433W8Z94;
-				INFOPLIST_FILE = URLShortenerAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = PiPyL.URLShortenerAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URLShortenerApp.app/URLShortenerApp";
-			};
-			name = Debug;
-		};
-		B381C9FA23D546D700E6FBB0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJ433W8Z94;
-				INFOPLIST_FILE = URLShortenerAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = PiPyL.URLShortenerAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URLShortenerApp.app/URLShortenerApp";
-			};
-			name = Release;
-		};
-		B3DFE6A723D5333600E601A5 /* Debug */ = {
+		B381CA5523D571B100E6FBB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -468,7 +357,7 @@
 			};
 			name = Debug;
 		};
-		B3DFE6A823D5333600E601A5 /* Release */ = {
+		B381CA5623D571B100E6FBB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -522,15 +411,13 @@
 			};
 			name = Release;
 		};
-		B3DFE6AA23D5333600E601A5 /* Debug */ = {
+		B381CA5823D571B100E6FBB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A317181577812CAF35E6E27C /* Pods-URLShortenerApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RJ433W8Z94;
 				INFOPLIST_FILE = URLShortenerApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -542,15 +429,13 @@
 			};
 			name = Debug;
 		};
-		B3DFE6AB23D5333600E601A5 /* Release */ = {
+		B381CA5923D571B100E6FBB0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62DBB8D718D01138456C69CA /* Pods-URLShortenerApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RJ433W8Z94;
 				INFOPLIST_FILE = URLShortenerApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -562,37 +447,81 @@
 			};
 			name = Release;
 		};
+		B381CA5B23D571B100E6FBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RJ433W8Z94;
+				INFOPLIST_FILE = URLShortenerAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PiPyL.URLShortenerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URLShortenerApp.app/URLShortenerApp";
+			};
+			name = Debug;
+		};
+		B381CA5C23D571B100E6FBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RJ433W8Z94;
+				INFOPLIST_FILE = URLShortenerAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PiPyL.URLShortenerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URLShortenerApp.app/URLShortenerApp";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B381C9F823D546D700E6FBB0 /* Build configuration list for PBXNativeTarget "URLShortenerAppTests" */ = {
+		B381CA3323D571AF00E6FBB0 /* Build configuration list for PBXProject "URLShortenerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B381C9F923D546D700E6FBB0 /* Debug */,
-				B381C9FA23D546D700E6FBB0 /* Release */,
+				B381CA5523D571B100E6FBB0 /* Debug */,
+				B381CA5623D571B100E6FBB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3DFE69023D5333100E601A5 /* Build configuration list for PBXProject "URLShortenerApp" */ = {
+		B381CA5723D571B100E6FBB0 /* Build configuration list for PBXNativeTarget "URLShortenerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3DFE6A723D5333600E601A5 /* Debug */,
-				B3DFE6A823D5333600E601A5 /* Release */,
+				B381CA5823D571B100E6FBB0 /* Debug */,
+				B381CA5923D571B100E6FBB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3DFE6A923D5333600E601A5 /* Build configuration list for PBXNativeTarget "URLShortenerApp" */ = {
+		B381CA5A23D571B100E6FBB0 /* Build configuration list for PBXNativeTarget "URLShortenerAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3DFE6AA23D5333600E601A5 /* Debug */,
-				B3DFE6AB23D5333600E601A5 /* Release */,
+				B381CA5B23D571B100E6FBB0 /* Debug */,
+				B381CA5C23D571B100E6FBB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B3DFE68D23D5333100E601A5 /* Project object */;
+	rootObject = B381CA3023D571AF00E6FBB0 /* Project object */;
 }
